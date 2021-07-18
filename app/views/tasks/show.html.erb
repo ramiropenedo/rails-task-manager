@@ -1,0 +1,6 @@
+<h1><%= @tasks.title %></h1>
+
+<p><%= @tasks.details %></p>
+
+<%= link_to '<button type="button">Return to Tasks</button>'.html_safe, tasks_path %>
+<%= link_to '<button type="button">Edit Task'.html_safe, task_path %>

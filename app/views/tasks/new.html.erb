@@ -1,0 +1,7 @@
+<%= simple_form_for(@tasks) do |f| %>
+  <%= f.input :title %>
+  <%= f.input :details %>
+  <%= f.submit %>
+<% end %>
+
+<%= link_to '<button type="button">After all I do not want a new task</button>'.html_safe, tasks_path %>
